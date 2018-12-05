@@ -4,19 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>My Admin - is a responsive admin template</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Menu CSS -->
-    <link href="bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
-    <!-- Menu CSS -->
-    <link href="bower_components/morrisjs/morris.css" rel="stylesheet">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/logos/myadmin-favicon.png">
+    <title>My Admin Template - Most Advanced Dashboard Kit of All Time</title>
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/dist/css/style.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,235 +22,180 @@
 </head>
 
 <body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="cssload-speeding-wheel"></div>
-    </div>
-    <div id="wrapper">
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0">
-            <div class="navbar-header"> <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="ti-menu"></i></a>
-                <div class="top-left-part"><a class="logo" href="index.html"><i class="glyphicon glyphicon-fire"></i>&nbsp;<span class="hidden-xs">My Admin</span></a></div>
-                <ul class="nav navbar-top-links navbar-left hidden-xs">
-                    <li><a href="javascript:void(0)" class="open-close hidden-xs hidden-lg
- waves-effect waves-light"><i class="ti-arrow-circle-left ti-menu"></i>
-</a></li>
-                </ul>
-                <ul class="nav navbar-top-links navbar-right pull-right">
-                    <li>
-                        <form role="search" class="app-search hidden-xs">
-                            <input type="text" placeholder="Search..." class="form-control">
-                            <a href=""><i class="ti-search"></i></a>
-                        </form>
-                    </li>
-                    <li>
-                        <a class="profile-pic" href="#"> <img src="images/users/hritik.jpg" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Maruti</b> </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-header -->
-            <!-- /.navbar-top-links -->
-            <!-- /.navbar-static-side -->
-        </nav>
-        <div class="navbar-default sidebar nicescroll" role="navigation">
-            <div class="sidebar-nav navbar-collapse ">
-                <ul class="nav" id="side-menu">
-                    <li class="sidebar-search hidden-sm hidden-md hidden-lg">
-                        <div class="input-group custom-search-form">
-                            <input type="text" class="form-control" placeholder="Search...">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="button"><i class="ti-search"></i> </button>
+<!-- ============================================================== -->
+<!-- Main wrapper -->
+<!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Header part -->
+        <!-- ============================================================== -->
+        <header class="py-3 bg-white">
+            <div class="container">
+                <!-- Start Header -->
+                <div class="header">
+                    <nav class="navbar navbar-expand-md navbar-light px-0">
+                        <a class="navbar-brand" href="#">
+                            <img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/logos/myadmin-logo--lp-dark.png" alt="logo">
+                            <span>
+                                <img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/logos/myadmin-logo-text--lp-dark.png" alt="logo">
                             </span>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="index.html" class="waves-effect"><i class="glyphicon glyphicon-fire fa-fw"></i> Dashboard</a>
-                    </li>
-                    <li>
-                        <a href="profile.html" class="waves-effect"><i class="ti-user fa-fw"></i>Profile</a>
-                    </li>
-                    <li>
-                        <a href="basic-table.html" class="waves-effect"><i class="ti-layout fa-fw"></i>Basic-Table</a>
-                    </li>
-                    <li>
-                        <a href="themifyicon.html" class="waves-effect"><i class="ti-face-smile fa-fw"></i> Icons</a>
-                    </li>
-                    <li>
-                        <a href="map-google.html" class="waves-effect"><i class="ti-location-pin fa-fw"></i> Google Map</a>
-                    </li>
-                    <li>
-                        <a href="blank.html" class="waves-effect"><i class="ti-files fa-fw"></i> Blank Page</a>
-                    </li>
-                    <li>
-                        <a href="404.html" class="waves-effect"><i class="ti-info fa-fw"></i> Error 404</a>
-                    </li>
-                </ul>
-                <div class="center p-20">
-                    <span class="hide-menu"><a href="http://wrappixel.com/templates/myadmin/" target="_blank" class="btn btn-info btn-block btn-rounded waves-effect waves-light">Upgrade to Pro</a></span>
-                </div>
-            </div>
-            <!-- /.sidebar-collapse -->
-        </div>
-        <!-- Page Content -->
-        <div id="page-wrapper">
-            <div class="container-fluid">
-                <div class="row bg-title">
-                    <div class="col-lg-12">
-                        <h4 class="page-title">Welcome to My Admin</h4>
-                        <ol class="breadcrumb">
-                            <li><a href="#">Dashboard</a></li>
-                        </ol>
-                    </div>
-                    <!-- /.col-lg-12 -->
-                </div>
-                <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <div class="white-box">
-                            <div class="row row-in">
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="col-in text-center">
-                                        <h5 class="text-danger">Chrome</h5>
-                                        <h3 class="counter">5645</h3>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="col-in text-center b-r-none">
-                                        <h5 class="text-muted text-warning">Mozila</h5>
-                                        <h3 class="counter">4250</h3>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="col-in text-center">
-                                        <h5 class="text-muted text-purple">Safari</h5>
-                                        <h3 class="counter">3450</h3>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="col-in text-center b-0">
-                                        <h5 class="text-info">Explorer</h5>
-                                        <h3 class="counter">2500</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="morris-area-chart" style="height: 345px;"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- row -->
-                <div class="row">
-                    <div class="col-md-6 col-xs-12 col-sm-12">
-                        <div class="white-box">
-                            <h3>To Do List</h3>
-                            <ul class="list-task list-group" data-role="tasklist">
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputSchedule" name="inputCheckboxesSchedule">
-                                        <label for="inputSchedule"> <span>Schedule meeting</span> </label>
-                                    </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item pr-3">
+                                    <a href="https://wrappixel.com/templates/myadmin-lite/" class="btn btn-custom btn-outline-info btn-lg" target="_blank">Free Download</a>
                                 </li>
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputCall" name="inputCheckboxesCall">
-                                        <label for="inputCall"> <span>Call clients for follow-up</span> <span class="label label-danger">Today</span> </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputBook" name="inputCheckboxesBook">
-                                        <label for="inputBook"> <span>Book flight for holiday</span> </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputForward" name="inputCheckboxesForward">
-                                        <label for="inputForward"> <span>Forward important tasks</span> <span class="label label-warning">2 weeks</span> </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputRecieve" name="inputCheckboxesRecieve">
-                                        <label for="inputRecieve"> <span>Recieve shipment</span> </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputForward2" name="inputCheckboxesd">
-                                        <label for="inputForward2"> <span>Important tasks</span> <span class="label label-success">2 weeks</span> </label>
-                                    </div>
+                                <li class="nav-item">
+                                    <a href="https://wrappixel.com/templates/my-admin/?ref=33" class="btn btn-custom btn-info btn-lg" target="_blank">Check Pro Version</a>
                                 </li>
                             </ul>
                         </div>
+                    </nav>
+                </div>
+                <!-- End Header -->
+            </div>
+        </header>
+        <!-- ============================================================== -->
+        <!-- Header part -->
+        <!-- ============================================================== -->
+        
+        <!-- ============================================================== -->
+        <!-- Page wrapper part -->
+        <!-- ============================================================== -->
+        <div class="content-wrapper">
+            <!-- ============================================================== -->
+            <!-- Demos part -->
+            <!-- ============================================================== -->
+            <section class="spacer bg-light">
+                <div class="container">
+                    <div class="row justify-content-md-center pt-5">
+                        <div class="col-md-9 text-center">
+                            <h2 class="text-dark">Create Userfriendly Interface for your <span class="font-weight-bold">Applications</span> & <span class="font-weight-bold">Products</span> with <span class="border-bottom border-dark"> My Admin</span></h2>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-xs-12 col-sm-12">
-                        <div class="white-box">
-                            <h3>You have 5 new messages</h3>
-                            <div class="message-center">
-                                <a href="#">
-                                    <div class="user-img">
-                                        <img src="images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span>
+                    <div class="row py-5">
+                        <!-- ============================================================== -->
+                        <!-- Lite Demo -->
+                        <!-- ============================================================== -->
+                        <div class="col-md-6">
+                            <div class="card p-2 mr-1">
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <h2 class="text-dark font-weight-medium">Lite Version</h2>
+                                        <h4 class="text-success">Free Forever</h4>
                                     </div>
-                                    <div class="mail-contnet">
-                                        <h5>Pavan kumar</h5>
-                                        <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span>
+                                    <div class="live-box text-center mt-4">
+                                        <img class="img-fluid" src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/screenshots/myadmin-lite-lp-img.jpg" alt="Lite version">
+                                        <div class="overlay">
+                                            <a class="btn btn-danger live-btn" href="https://wrappixel.com/demos/free-admin-templates/myadmin-lite/dashboard.html" target="_blank">Live Preview</a>
+                                        </div>
                                     </div>
-                                </a>
-                                <a href="#">
-                                    <div class="user-img"> <img src="images/users/sonu.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
-                                    <div class="mail-contnet">
-                                        <h5>Sonu Nigam</h5>
-                                        <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span>
+                                    <p class="text-muted mt-5 line-h33 font-16">My Admin Lite is basic yet very useful bootstrap 4 dashbaord template for your projects.If you are looking for modern yet clean admin template for your backend project. My Admin is the right choice for you. If your application requires more options. We like to suggest you the pro version.</p>
+                                    <div class="row text-muted  mt-4">
+                                        <div class="col-md-6">
+                                            <ul class="list-unstyled listing">
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">1 Basic Dashboard</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">6+ Pages Template</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">10+ UI Components</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Bootstrap 4 Version</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Themify Icons</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Fully Responsive Pages</li>
+                                                <li class="text-dark"><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/dark-circle.jpg" class="img-fluid mr-2">No Support Provided</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="list-unstyled listing">
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">LeSS Base CSS</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Easy To Customize</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Basic Table Examples</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Profile Page Included</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Google Map</li>
+                                                <li class="text-dark "><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/dark-circle.jpg" class="img-fluid mr-2">No Documentation</li>
+                                                <li class="text-dark"><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/dark-circle.jpg" class="img-fluid mr-2">Backlink Required</li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </a>
-                                <a href="#">
-                                    <div class="user-img"> <img src="images/users/arijit.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
-                                    <div class="mail-contnet">
-                                        <h5>Arijit Sinh</h5>
-                                        <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span>
+                                    <div class="text-center mt-4 mb-3">
+                                        <a href="https://wrappixel.com/templates/myadmin-lite/" class="btn btn-custom btn-outline-info btn-lg" target="_blank">Free Download</a>
                                     </div>
-                                </a>
-                                <a href="#">
-                                    <div class="user-img"> <img src="images/users/genu.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
-                                    <div class="mail-contnet">
-                                        <h5>Genelia Deshmukh</h5>
-                                        <span class="mail-desc">I love to do acting and dancing</span> <span class="time">9:08 AM</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- Pro Demo -->
+                        <!-- ============================================================== -->
+                        <div class="col-md-6">
+                            <div class="card pro-demo p-2 ml-1">
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <h2 class="text-info font-weight-medium">Pro Version</h2>
+                                        <h4 class="text-dark">$19 Only</h4>
                                     </div>
-                                </a>
-                                <a href="#" class="b-none">
-                                    <div class="user-img"> <img src="images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
-                                    <div class="mail-contnet">
-                                        <h5>Pavan kumar</h5>
-                                        <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span>
+                                    <div class="live-box text-center mt-4">
+                                        <img class="img-fluid" src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/screenshots/myadminl-pro-lp-img.jpg" alt="Pro version">
+                                        <div class="overlay">
+                                            <a class="btn btn-danger live-btn" href="https://wrappixel.com/demos/admin-templates/my-admin/Documentation/demo.html" target="_blank">Live Preview</a>
+                                        </div>
                                     </div>
-                                </a>
+                                    <div class="row text-dark mt-5">
+                                        <div class="col-md-6">
+                                            <ul class="list-unstyled listing">
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">3+ Stunning Dashboard</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">600+ Page Templates</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">500+ UI Components</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">100+ Integrated Plugins</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Front-end Landing Page</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">1 Year Premium Support</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Right-to-Left(RTL) Verion</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Unlimited Colors</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">3000+ Font Icons</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Lots of Chart Options</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Bootstrap 4 Version</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Fully Responsive Pages</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="list-unstyled listing">
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">2+ Unique Demos</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">2+ Ready to Use App</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Light and Dark Sidebar</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Dashboard PSD Files</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Lifetime Free Updates</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Documentation Provided</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Lots of Widgets</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Tons of Table Example</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Variety of Forms Included</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">LeSS Base CSS</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Easy to Customize</li>
+                                                <li><img src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">& lots more..</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4 mb-3">
+                                        <a href="https://wrappixel.com/templates/my-admin/?ref=33" class="btn btn-custom btn-info btn-lg" target="_blank">Buy Pro Version</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container-fluid -->
+            </section>
         </div>
-        <!-- /#page-wrapper -->
-        <footer class="footer text-center"> 2017 &copy; Myadmin brought to you by wrappixel.com </footer>
+        <!-- ============================================================== -->
+        <!-- End page wrapperHeader part -->
+        <!-- ============================================================== -->
+        <footer class="text-center p-4"> All Rights Reserved by My Admin. Designed and Developed by <a href="https://wrappixel.com">WrapPixel</a>.</footer>
     </div>
-    <!-- /#wrapper -->
-    <!-- jQuery -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- Menu Plugin JavaScript -->
-    <script src="bower_components/metisMenu/dist/metisMenu.min.js"></script>
-    <!--Nice scroll JavaScript -->
-    <script src="js/jquery.nicescroll.js"></script>
-    <!--Morris JavaScript -->
-    <script src="bower_components/raphael/raphael-min.js"></script>
-    <script src="bower_components/morrisjs/morris.js"></script>
-    <!--Wave Effects -->
-    <script src="js/waves.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="js/myadmin.js"></script>
-    <script src="js/dashboard1.js"></script>
 </body>
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<script src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/plugins/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap tether Core JavaScript -->
+<script src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/plugins/popper.js/dist/umd/popper.min.js"></script>
+<script src="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </html>
