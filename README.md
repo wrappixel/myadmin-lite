@@ -18,7 +18,7 @@
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="https://www.wrappixel.com/demos/free-admin-templates/myadmin-lite/dashboard.html" rel="nofollow">https://www.wrappixel.com/demos/free-admin-templates/myadmin-lite/dashboard.html</a>
+  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/myadmin-bootstrap-free/landingpage/index.html" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/bootstrap/myadmin-bootstrap-free/landingpage/index.html</a>
 </li>
 <li>
     Download Page: <a href="https://www.wrappixel.com/templates/myadmin-lite/" rel="nofollow">
@@ -54,7 +54,7 @@
 </a>
 <p>
    Checkout our premium version of MyAdmin Bootstrap Template for lots more features and ready to use page templates.<br>
-   <a href="https://www.wrappixel.com/demos/admin-templates/my-admin/myadmin/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/my-admin/"> Download </a>
+   <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/myadmin-bootstrap/package/myadmin/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/my-admin/"> Download </a>
 </p>
 
 <!-- Useful Links of Template -->
